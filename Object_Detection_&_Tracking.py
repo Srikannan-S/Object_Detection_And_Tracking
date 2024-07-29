@@ -1,7 +1,7 @@
 import imutils
 import cv2
 
-# HSV Values in low and high
+# HSV Values in low and high for the particular object
 redLower=(0,0,111)
 redUpper=(178,144,221)
 
