@@ -19,21 +19,29 @@ This Python project demonstrates how to get HSV color range values from an image
 
 ⚙️ Installation & Usage
 
-1. Clone the repository:  
+1. Clone the repository:
+   ```bash
    git clone https://github.com/yourusername/object-detection-hsv.git  
-   cd object-detection-hsv  
+   cd object-detection-hsv
+   ```
 
-2. Install required packages:  
+2. Install required packages:
+   ```bash
    pip install opencv-python numpy imutils  
-
+   ```
+   
 3. Place your input image (e.g., LensBox.jpg) in the project directory.  
 
 4. Run the HSV value extraction script to get HSV ranges from your image:  
+   ```bash
    python get_hsv_values.py  
-
+   ```
+   
 5. Run the real-time object detection script:  
+   ```bash
    python object_tracking.py  
-
+   ```
+   
 🛠️ How It Works
 
 - HSV Value Extraction:  
@@ -54,9 +62,10 @@ This Python project demonstrates how to get HSV color range values from an image
   - Press 'q' to quit the program.
 
 📂 Project Structure
-
-object-detection-hsv  
+```bash
+📂object-detection-hsv  
 ├── get_hsv_values.py         # Script to extract HSV min/max values from an image  
 ├── object_tracking.py        # Real-time object detection and tracking script  
 ├── LensBox.jpg               # Sample input image for HSV extraction  
 └── README.md                 # Project documentation  
+```
